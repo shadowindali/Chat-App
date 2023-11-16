@@ -38,8 +38,8 @@ io.on('connection', (socket) => {
 app.use(express.json());
 
 // DATABASE //
-const MongoURL = 'mongodb://127.0.0.1:27017/ChatApp';
-// const MongoURL = "mongodb+srv://alialimonzer10:Ali_monzer10@shadowindali.rfeldlw.mongodb.net/chattingapp";
+// const MongoURL = 'mongodb://127.0.0.1:27017/ChatApp';
+const MongoURL = "mongodb+srv://alialimonzer10:Ali_monzer10@shadowindali.rfeldlw.mongodb.net/Chatapp";
 
 mongoose.connect(MongoURL).then(() => console.log('connected'));
 
