@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+}
+
+.maindark {
+  background-color: rgb(5, 8, 27) !important;
+}
+
+.container {
+  background-color: rgba(213, 188, 188, 0.427);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
