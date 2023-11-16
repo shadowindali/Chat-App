@@ -45,11 +45,11 @@ function Chatarea() {
   };
 
   // return to /app when reloading
-  useEffect(() => {
-    if (window.performance && window.performance.navigation.type === 1) {
-      window.location.href = '/app/welcome';
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (window.performance && window.performance.navigation.type === 1) {
+  //     window.location.href = '/app/welcome';
+  //   }
+  // }, []);
 
   const sendMessage = async () => {
     try {
